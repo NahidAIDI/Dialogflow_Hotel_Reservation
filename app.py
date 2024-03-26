@@ -30,6 +30,3 @@ def dateValidator(date):
         return jsonify({'response':'Cool date!'})
     except ValueError:
         return jsonify({'response':'Invalid date format. Please provide date in the format YYYY-MM-DD.'})
-
-if __name__ == '__main__':
-    app.run()
